@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		9C28261E226608CA00FCB327 /* WebPDataDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C28261A226608C900FCB327 /* WebPDataDecoder.m */; };
 		9C28261F226608CA00FCB327 /* WebPImageMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C28261B226608C900FCB327 /* WebPImageMacros.h */; };
-		9C282620226608CA00FCB327 /* Data+WebPFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28261C226608C900FCB327 /* Data+WebPFormat.swift */; };
 		9C282621226608CA00FCB327 /* WebPDataDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C28261D226608C900FCB327 /* WebPDataDecoder.h */; };
 		9C28262222660AAE00FCB327 /* WebPImageMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C28261B226608C900FCB327 /* WebPImageMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C28262322660AAE00FCB327 /* WebPDataDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C28261D226608C900FCB327 /* WebPDataDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C28262422660AAE00FCB327 /* Data+WebPFormat.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9C28261C226608C900FCB327 /* Data+WebPFormat.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD3B123E1E47752800E04471 /* WebPEncoderMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B12331E4768C100E04471 /* WebPEncoderMacOSTests.swift */; };
 		BD3B123F1E47752E00E04471 /* WebPEncoderMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B12331E4768C100E04471 /* WebPEncoderMacOSTests.swift */; };
 		BD3B127C1E478B3300E04471 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC9BE81E42407800D914B4 /* decode.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -351,7 +349,6 @@
 /* Begin PBXFileReference section */
 		9C28261A226608C900FCB327 /* WebPDataDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPDataDecoder.m; sourceTree = "<group>"; };
 		9C28261B226608C900FCB327 /* WebPImageMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPImageMacros.h; sourceTree = "<group>"; };
-		9C28261C226608C900FCB327 /* Data+WebPFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+WebPFormat.swift"; sourceTree = "<group>"; };
 		9C28261D226608C900FCB327 /* WebPDataDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPDataDecoder.h; sourceTree = "<group>"; };
 		BD196F991DB2989600F7387E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		BD3B12321E4768C100E04471 /* WebPEncoderIOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPEncoderIOSTests.swift; sourceTree = "<group>"; };
@@ -592,7 +589,6 @@
 				9C28261B226608C900FCB327 /* WebPImageMacros.h */,
 				9C28261D226608C900FCB327 /* WebPDataDecoder.h */,
 				9C28261A226608C900FCB327 /* WebPDataDecoder.m */,
-				9C28261C226608C900FCB327 /* Data+WebPFormat.swift */,
 			);
 			path = WebPDataDecoder;
 			sourceTree = "<group>";
@@ -961,7 +957,6 @@
 			files = (
 				9C28262222660AAE00FCB327 /* WebPImageMacros.h in Headers */,
 				9C28262322660AAE00FCB327 /* WebPDataDecoder.h in Headers */,
-				9C28262422660AAE00FCB327 /* Data+WebPFormat.swift in Headers */,
 				FD027E4C20A8F859004634B2 /* common_sse41.h in Headers */,
 				BD3B12831E479B0000E04471 /* CWebP-umbrella.h in Headers */,
 				BD3B127C1E478B3300E04471 /* decode.h in Headers */,
@@ -1178,7 +1173,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8F55572178029600322BA2 /* InternalRawRepresentable.swift in Sources */,
-				9C282620226608CA00FCB327 /* Data+WebPFormat.swift in Sources */,
 				FD16BB2221E6F98500F80360 /* WebPDecoderConfig.swift in Sources */,
 				9C28261E226608CA00FCB327 /* WebPDataDecoder.m in Sources */,
 				FD8F55582178029600322BA2 /* WebPEncoder.swift in Sources */,
