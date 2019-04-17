@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C28261E226608CA00FCB327 /* WebPDataDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C28261A226608C900FCB327 /* WebPDataDecoder.m */; };
+		9C28261F226608CA00FCB327 /* WebPImageMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C28261B226608C900FCB327 /* WebPImageMacros.h */; };
+		9C282620226608CA00FCB327 /* Data+WebPFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28261C226608C900FCB327 /* Data+WebPFormat.swift */; };
+		9C282621226608CA00FCB327 /* WebPDataDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C28261D226608C900FCB327 /* WebPDataDecoder.h */; };
+		9C28262222660AAE00FCB327 /* WebPImageMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C28261B226608C900FCB327 /* WebPImageMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C28262322660AAE00FCB327 /* WebPDataDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C28261D226608C900FCB327 /* WebPDataDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C28262422660AAE00FCB327 /* Data+WebPFormat.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9C28261C226608C900FCB327 /* Data+WebPFormat.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD3B123E1E47752800E04471 /* WebPEncoderMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B12331E4768C100E04471 /* WebPEncoderMacOSTests.swift */; };
 		BD3B123F1E47752E00E04471 /* WebPEncoderMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B12331E4768C100E04471 /* WebPEncoderMacOSTests.swift */; };
 		BD3B127C1E478B3300E04471 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC9BE81E42407800D914B4 /* decode.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -342,6 +349,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9C28261A226608C900FCB327 /* WebPDataDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPDataDecoder.m; sourceTree = "<group>"; };
+		9C28261B226608C900FCB327 /* WebPImageMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPImageMacros.h; sourceTree = "<group>"; };
+		9C28261C226608C900FCB327 /* Data+WebPFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+WebPFormat.swift"; sourceTree = "<group>"; };
+		9C28261D226608C900FCB327 /* WebPDataDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPDataDecoder.h; sourceTree = "<group>"; };
 		BD196F991DB2989600F7387E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		BD3B12321E4768C100E04471 /* WebPEncoderIOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPEncoderIOSTests.swift; sourceTree = "<group>"; };
 		BD3B12331E4768C100E04471 /* WebPEncoderMacOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPEncoderMacOSTests.swift; sourceTree = "<group>"; };
@@ -575,6 +586,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C282619226608C900FCB327 /* WebPDataDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				9C28261B226608C900FCB327 /* WebPImageMacros.h */,
+				9C28261D226608C900FCB327 /* WebPDataDecoder.h */,
+				9C28261A226608C900FCB327 /* WebPDataDecoder.m */,
+				9C28261C226608C900FCB327 /* Data+WebPFormat.swift */,
+			);
+			path = WebPDataDecoder;
+			sourceTree = "<group>";
+		};
 		BD196F981DB2961600F7387E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
@@ -866,6 +888,7 @@
 		D95E1BDF1D88D63300F94976 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9C282619226608C900FCB327 /* WebPDataDecoder */,
 				FD8F55432177FDDE00322BA2 /* WebP */,
 			);
 			path = Sources;
@@ -906,6 +929,8 @@
 				BD3B127F1E478B4300E04471 /* decode.h in Headers */,
 				BD3B12801E478B4300E04471 /* encode.h in Headers */,
 				BD3B12811E478B4300E04471 /* types.h in Headers */,
+				9C282621226608CA00FCB327 /* WebPDataDecoder.h in Headers */,
+				9C28261F226608CA00FCB327 /* WebPImageMacros.h in Headers */,
 				BD3B12861E479FE400E04471 /* CWebP-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -934,6 +959,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C28262222660AAE00FCB327 /* WebPImageMacros.h in Headers */,
+				9C28262322660AAE00FCB327 /* WebPDataDecoder.h in Headers */,
+				9C28262422660AAE00FCB327 /* Data+WebPFormat.swift in Headers */,
 				FD027E4C20A8F859004634B2 /* common_sse41.h in Headers */,
 				BD3B12831E479B0000E04471 /* CWebP-umbrella.h in Headers */,
 				BD3B127C1E478B3300E04471 /* decode.h in Headers */,
@@ -1100,6 +1128,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D95E1BD31D88D63200F94976;
@@ -1149,7 +1178,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8F55572178029600322BA2 /* InternalRawRepresentable.swift in Sources */,
+				9C282620226608CA00FCB327 /* Data+WebPFormat.swift in Sources */,
 				FD16BB2221E6F98500F80360 /* WebPDecoderConfig.swift in Sources */,
+				9C28261E226608CA00FCB327 /* WebPDataDecoder.m in Sources */,
 				FD8F55582178029600322BA2 /* WebPEncoder.swift in Sources */,
 				FD16BB2021E6F97D00F80360 /* WebPDecoder.swift in Sources */,
 				FD16BB2121E6F98100F80360 /* WebPDecoder+Platform.swift in Sources */,
@@ -1736,7 +1767,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/WebP";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.ainam.WebP.ios;
 				PRODUCT_NAME = WebP;
@@ -1761,7 +1792,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/WebP";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.ainam.WebP.ios;
 				PRODUCT_NAME = WebP;
