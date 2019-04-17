@@ -15,7 +15,8 @@ private let fileHeaderSuffix = "WEBP"
 // MARK: - WebP Format Testing
 extension Data {
 
-    internal var isWebPFormat: Bool {
+    /// 是否是WebP格式数据
+    public var isWebPFormat: Bool {
         guard fileHeaderIndex < count else { return false }
         let endIndex = index(startIndex, offsetBy: fileHeaderIndex)
         let data = subdata(in: startIndex..<endIndex)
